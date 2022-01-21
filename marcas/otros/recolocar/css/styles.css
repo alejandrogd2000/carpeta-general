@@ -1,0 +1,78 @@
+@media screen and (max-width: 900px){
+	
+		div{ 
+		text-align: center;
+		
+
+		display: inline-block;}
+
+	.m1{text-align: center; width: 99% ;
+	 }
+	.m2{float: left;  
+		text-align: center;
+		width: 19%; 
+		}
+	.m3{float: right;  text-align: center; width: 78%; 
+
+		}
+	.m4{text-align: center; width: 99%;    
+		
+	}
+	
+}
+
+.general{
+	border: 5px solid purple;
+
+}
+.menu{
+		
+		
+		border: 5px solid green;
+	}
+.cabecera{
+		
+		
+		border: 5px solid red;
+	}
+.contenido{
+		
+		
+		border: 5px solid blue;
+	}
+.footer{
+		
+		border: 5px solid red;
+	}
+.Copy{display:none;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: rotate(45deg);
+	}
+	@media print {
+		.Print{
+			display: initial;
+		}
+		div{ 
+		text-align: center;
+		
+
+		display: inline-block;}
+
+	.m1{text-align: center; width: 99% ;
+	 }
+	.m2{float: left;  
+		text-align: center;
+		width: 19%; 
+		}
+	.m3{float: right;  text-align: center; width: 78%; 
+
+		}
+	.m4{text-align: center; width: 99%;    
+		
+	}
+	
+	}
+
+

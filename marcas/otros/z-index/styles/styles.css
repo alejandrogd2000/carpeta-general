@@ -1,0 +1,38 @@
+.d1{
+	border: 3px solid blue ;
+	z-index: 5;
+	background-color: rgb(33, 222, 255,0.5);
+}
+#d1{
+	border: 3px solid green;
+	z-index: 4;
+	left: 100px;
+	background-color: rgb(33, 245, 104,0.5);
+
+}
+.d2{
+	border: 3px solid yellow ;
+	z-index: 3;
+	left: 200px;
+	background-color: rgb(231, 231,16,0.5);
+
+}
+#d2{
+	border: 3px solid orange;
+	z-index: 2;
+	left: 300px;
+	background-color: rgb(231,127,16,0.5);
+}
+.d3{
+	border: 3px solid red;
+	z-index: 1;
+	left: 400px;
+	background-color: rgb(231,56,16,0.5);
+}
+
+div{
+	position: absolute;
+	width: 10%;
+	height: 10%;
+
+}

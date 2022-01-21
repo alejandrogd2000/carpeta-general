@@ -1,0 +1,25 @@
+@media(max-width: 800px){
+.no{display:none;}	
+}
+@media(max-width: 750px){
+.no1{display:none;}	
+}
+@media(max-width: 700px){
+.no2{display:none;}	
+}
+@media(max-width: 650px){
+.no3{display:none;}	
+}
+li{		
+	width: 80px;
+float: left;
+background-color: red;
+margin: 10px;
+display: inline;
+padding: 10px;
+
+}
+.sombra:hover{
+	background-color: grey;
+}
+

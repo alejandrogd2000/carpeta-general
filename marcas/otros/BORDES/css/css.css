@@ -1,0 +1,27 @@
+.bordes {
+	border-right: 10px solid seagreen;
+	border-left: 20px dotted darkolivegreen ;
+	border-bottom:30px dashed greenyellow  ;
+	border-top: 40px outset yellowgreen;
+	width: 600px;
+	height: 600px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	margin-right: 100px;
+	margin-left: 100px;
+	text-align: center;
+	background-image: url("../imagenes/ungranmedico.jpg");
+	font-family: sans-serif;
+	font-size: 30px ;
+	}
+	p{
+		color: hotpink;
+	}
+.hover:hover{
+	width: 1000px;
+	height: 1000px;
+	text-align: initial;
+	font-family: cursive;
+
+	background-image: url(../imagenes/amadoportododos.jpg);
+	}

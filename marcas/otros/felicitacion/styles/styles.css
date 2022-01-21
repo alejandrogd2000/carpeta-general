@@ -1,0 +1,44 @@
+body{
+	 background-image: url("../images/nevado.jpg");
+	 background-repeat: no-repeat;
+
+}
+div{
+	width: 100%;
+}
+.nieve{
+	color: white;
+	position: absolute;
+	z-index: 3;
+}
+.nevar{
+	animation-name: nevar;
+	animation-duration: 10s;
+	text-align: center;
+}
+.copos1{
+	position: relative;
+	
+	z-index: 4;
+	animation-name: coposnieve1;
+	animation-duration: 10s;
+	float: left;
+}
+.copos2{
+	position: relative;
+	float: left;
+	z-index: 3;
+	animation-name: coposnieve2;
+	animation-duration: 10s;
+}
+@keyframes coposnieve1{
+	from {top: -10px;}
+   to {top: 450px; left:50px;}
+}
+@keyframes coposnieve2{
+	from {top: -10px;}
+   to {top: 450px; right: 50px;}
+}
+
+
+

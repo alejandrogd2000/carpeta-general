@@ -1,0 +1,262 @@
+body{
+	background-color: green;
+}
+
+
+.carta{
+	background-color: white;
+	width: 200px;
+	height: 300px;
+	border-radius: 10px;
+	border: 2px solid black;
+}
+/* Principio Carta de 5 de corazones */
+#palo1{
+	position:absolute;
+	top: 20px;
+	left: 20px;
+	text-align: center;
+	color: red;
+}
+#palo2{
+	position: absolute;
+	top: 80px;
+	left: 60px;
+	color: red;
+
+}
+#palo3{
+	position: absolute;
+	top: 80px;
+	left: 130px;
+	color: red;
+
+}
+#palo4{
+	position: absolute;
+	top: 150px;
+	left: 95px;
+	color: red;
+
+	
+}
+#palo5{
+	position: absolute;
+	top: 230px;
+	left: 60px;
+	color: red;
+
+}
+#palo6{
+	position: absolute;
+	top: 230px;
+	left: 130px;
+	color: red;
+
+}
+#palo7{
+	position: absolute;
+	top: 260px;
+	left: 180px;
+	transform: rotate(180deg);
+	text-align: center;
+	color: red;
+	
+}
+
+#cincodecorazones{
+	position: absolute;
+	top: 380px;
+	left: 750px;
+	transform: rotate(30deg);
+	z-index: 5;
+
+}
+/* Final Carta de 5 de corazones */
+
+/* Principio Carta de 7 de treboles */
+#palo8{
+	position:absolute;
+	top: 20px;
+	left: 20px;
+	text-align: center;
+}
+#palo9{
+	position: absolute;
+	top: 60px;
+	left: 60px;
+	
+}
+#palo10{
+	position: absolute;
+	top: 60px;
+	left: 130px;
+}
+#palo11{
+	position: absolute;
+	top: 100px;
+	left: 95px;
+	
+}
+#palo12{
+	position: absolute;
+	top: 140px;
+	left: 60px;
+}
+#palo13{
+	position: absolute;
+	top: 140px;
+	left: 130px;
+}
+#palo14{
+	position: absolute;
+	top: 260px;
+	left: 180px;
+	transform: rotate(180deg);
+	text-align: center;	
+}
+#palo15{
+	position: absolute;
+	top: 220px;
+	left: 60px;
+}
+#palo16{
+	position: absolute;
+	top: 220px;
+	left: 130px;
+}
+
+#sietedetreboles{
+	position: absolute;
+	top: 330px;
+	left: 600px;
+	transform: rotate(25deg);
+	z-index: 4;
+
+}
+/* Final Carta de 7 de treboles */
+
+
+/* Principio Carta de 4 de treboles */
+#palo17{
+	position:absolute;
+	top: 20px;
+	left: 20px;
+	text-align: center;
+}
+#palo18{
+	position: absolute;
+	top: 80px;
+	left: 60px;
+	
+}
+#palo19{
+	position: absolute;
+	top: 80px;
+	left: 130px;
+}
+#palo20{
+	position: absolute;
+	top: 230px;
+	left: 60px;
+}
+#palo21{
+	position: absolute;
+	top: 230px;
+	left: 130px;
+}
+
+#palo22{
+	position: absolute;
+	top: 260px;
+	left: 180px;
+	transform: rotate(180deg);
+	text-align: center;	
+}
+#cuatrodetreboles{
+	position: absolute;
+	top: 300px;
+	left: 450px;
+	transform: rotate(15deg);
+	z-index: 3;
+}
+/* Final Carta de 4 de treboles */
+
+/* Principio Carta de 3 de picas */
+#palo23{
+	position:absolute;
+	top: 20px;
+	left: 20px;
+	text-align: center;
+}
+#palo24{
+	position: absolute;
+	top: 80px;
+	left: 95px;
+	
+}
+#palo25{
+	position: absolute;
+	top: 150px;
+	left: 95px;
+	
+}
+#palo26{
+	position: absolute;
+	top: 230px;
+	left: 95px;
+	
+}
+
+#palo27{
+	position: absolute;
+	top: 260px;
+	left: 180px;
+	transform: rotate(180deg);
+	text-align: center;	
+}
+#tresdepicas{
+	position: absolute;
+	top: 300px;
+	left: 300px;
+	transform: rotate(10deg);
+	z-index: 2;
+}
+/* Final Carta de 3 de picas */
+
+/* Principio Carta de 2 de treboles */
+
+#palo28{
+	position:absolute;
+	top: 20px;
+	left: 20px;
+	text-align: center;
+}
+#palo29{
+	position: absolute;
+	top: 80px;
+	left: 95px;
+	
+}	
+
+#palo30{
+	position: absolute;
+	top: 230px;
+	left: 95px;
+	
+}
+
+#palo31{
+	position: absolute;
+	top: 260px;
+	left: 180px;
+	transform: rotate(180deg);
+	text-align: center;	
+}
+#dosdetreboles{
+	position: absolute;
+	top: 320px;
+	left: 150px;
+	transform: rotate(10deg);
+	z-index: 1;
+}

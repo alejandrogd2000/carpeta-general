@@ -1,0 +1,58 @@
+/* Relativo */
+/*
+.d1{
+	position: relative;
+}
+#d1{
+ 	position: relative;
+ 	left: 110px;
+ 	bottom: 95px;
+}
+.d2{
+ 	position: relative;
+ 	left: 220px;
+ 	bottom: 190px;
+}
+
+#d2{
+ 	position: relative;
+ 	left: 330px;
+ 	bottom: 285px;
+}
+.d3{
+ 	position: relative;
+ 	left: 440px;
+ 	bottom: 380px;
+
+}
+*/
+/* Absoluto */
+.d1{
+	position: absolute;
+}
+#d1{
+ 	position: absolute;
+ 	left: 110px;
+ 	}
+.d2{
+ 	position: absolute;
+ 	left: 220px;
+ 	}
+
+#d2{
+ 	position: absolute;
+ 	left: 330px;
+ 	
+}
+.d3{
+ 	position: absolute;
+ 	left: 440px;
+ 	
+
+}
+
+div{
+	border: 3px solid #204A87;
+	background-color: #65FEFE;
+	width: 7%;
+}
